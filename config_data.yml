@@ -9,6 +9,7 @@
 # languages. Each build is in its own subfolder - one for each language.
 languages:
   - ca
+  - es
   - en
 
 # Destination directory
@@ -67,7 +68,7 @@ inputs:
 translations:
   # This pulls in translations from a Git repository.
   - class: TranslationInputSdgTranslations
-    source: https://github.com/open-sdg/sdg-translations.git
+    source: https://github.com/badosa/sdg-translations.git
     tag: master
   # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
